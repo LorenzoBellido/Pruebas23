@@ -1,0 +1,43 @@
+Clase Medicamento implements Comparable<Medicamentos>
+- codigo: int
+- nombre: String
+- descripcion: String
+- precio: double
+- posologia: String
+
++ Medicamento(codigo,nombre,descripcion,precio,posologia)
++ Medicamento(codigo)
++ Medicamento(codigo,nombre,descripcion)
+
++ getCodigo():int
++ getNombre(): String
++ getDescripcion(): String
++ getPrecio(): double
++ getPosologia(): String
++ setPrecio(double precio)
++ setPosologia(String posologia) 
+
++ toString(): String
+
++ equals(Objeto obj): boolean
+
++ compareTo(Medicamento m): int
+
+
+Clase GestionMedicamentos
++ static listaMedicamentos: TreeSet<Medicamentos>
++ static addMedicamento(Medicamento m):boolean
++ static borrarMedicamento(Medicamento m): boolean
++ static listarMedicamento()
++ static modificarMedicamento(Medicamento m):boolean
+
+
+Clase Fichero
++ leer(): set
++ escribir(set)
++ guardar(): boolean
+
+
+Clase CodigoNegativo
++ toString():String
++ getMessage():String

@@ -1,0 +1,2 @@
+1;Paracetamol;Pastilla;13.0;sisi
+3;parar;para;24.0;praa
