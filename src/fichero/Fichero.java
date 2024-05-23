@@ -31,7 +31,7 @@ public class Fichero {
 				m = new Medicamento(Integer.parseInt(valores[0]), valores[1], valores[2], Double.parseDouble(valores[3]), valores[4]);
 				
 				lista.add(m);
-				br.readLine();
+				//br.readLine(); No poner si se inicializa en el bucle
 			}
 		} catch (FileNotFoundException e) {
 			
